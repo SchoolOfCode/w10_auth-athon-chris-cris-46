@@ -16,7 +16,7 @@ const Profile = () => {
         <div class="card">
           <img className="profile-img" src={user.picture} alt={user.name} />
 
-          <p class="title">Logged in as:</p>
+          <p class="title">Logged in as...:</p>
           <h1>{user.name}</h1>
           <p>{user.email}</p>
 
