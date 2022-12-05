@@ -7,7 +7,7 @@ import Time from "../Time/Times";
 
 const CalendarComp = () => {
   const [date, setDate] = useState(new Date());
-  const [showTime, setShowTime] = useState(false);
+  const [showTime] = useState(false);
   const { user, isAuthenticated } = useAuth0();
   return (
     isAuthenticated && (
