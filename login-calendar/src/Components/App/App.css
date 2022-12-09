@@ -14,6 +14,24 @@
   }
 }
 
+.fourth {
+  border-color: #f1c40f;
+  background-color: white;
+  color: black;
+  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  width: 20%;
+  -webkit-transition: background 600ms ease-in-out;
+  transition: background 800ms ease-in-out;
+  border-radius: 25px;
+ 
+}
+.fourth:hover {
+  background-position: 0;
+}
+
 .App-header {
   background-color: white;
   min-height: 100vh;
