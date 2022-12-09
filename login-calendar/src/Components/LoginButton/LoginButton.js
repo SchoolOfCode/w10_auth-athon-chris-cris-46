@@ -7,13 +7,18 @@ const LoginButton = () => {
 
   return (
     !isAuthenticated && (
-      <label>
+      <div className="wrapper">
         <h1> Login to view calendar</h1>
+        <img
+          className="logo"
+          src="https://www.freeiconspng.com/uploads/calendar-image-png-3.png"
+          alt="app-logo"
+        ></img>
         <br></br>
         <button className="login-button" onClick={() => loginWithRedirect()}>
           Login
         </button>
-      </label>
+      </div>
     )
   );
 };

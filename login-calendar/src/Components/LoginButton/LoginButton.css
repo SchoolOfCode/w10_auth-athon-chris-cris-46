@@ -15,3 +15,13 @@
     opacity: 0.7;
     color: red;
   }
+
+  .logo{
+    width: 20%;
+  }
+
+  .wrapper{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+  }
