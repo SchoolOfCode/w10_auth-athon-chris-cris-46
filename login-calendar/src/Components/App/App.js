@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Jotd from "../jotd/Jotd.js";
-import LogoutButton from "../LogoutButton/LogoutButton";
+
 import LoginButton from "../LoginButton/LoginButton";
 import Profile from "../LoginProfile/LoginProfile";
 
